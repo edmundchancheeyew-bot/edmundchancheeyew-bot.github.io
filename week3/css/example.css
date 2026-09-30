@@ -1,0 +1,21 @@
+.big-box{
+    display:flex;
+}
+
+div.bg-yellow {
+    background-color: #FFF4A3;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+div.bg-pink {
+    background-color: #FFC0C7;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+div.bg-green {
+    background-color: #D9EEE1;
+    padding: 20px;
+    margin-bottom: 20px;
+}

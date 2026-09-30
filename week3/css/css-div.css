@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+h1 {
+    font-family: 'Isometra', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 10px;
+    
+}
+
+p {
+    font-family: 'Playwrite CA Guides', cursive;
+    font-size: 28px;
+    text-align: justify;
+    line-height: 2.5;
+    background-color: #2f5f23;
+    background-image: url('/week3/image/pic.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.text-bold {
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #560c0c;
+}

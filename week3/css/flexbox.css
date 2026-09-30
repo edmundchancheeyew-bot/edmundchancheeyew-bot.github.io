@@ -1,0 +1,55 @@
+body {
+            font-family: 'Oxygen', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .title {
+            max-width: 1024px;
+            margin: 50px auto;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: 700;
+            color: #222;
+        }
+
+        h2 {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 40px;
+        }
+
+        .flexbox {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+
+        }
+
+        .build {
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            flex: 1 1 30%;
+            padding: 20px;
+            text-align: left;
+        }
+
+        .image {
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+            background-size: cover;
+            background-position: center;
+            margin-bottom: 15px;
+        }
+
+
+
+        .img1 { background-image: url('/week3/image/house.jpg'); }
+        .img2 { background-image: url('/week3/image/buid1.jpg'); }
+        .img3 { background-image: url('/week3/image/stair.jpg'); }
