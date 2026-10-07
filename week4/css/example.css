@@ -1,0 +1,42 @@
+.big-box{
+    display:flex;
+    gap: 20px;
+    max-width: 1080px;
+    margin: auto;
+}
+
+.box {
+    padding: 20px;
+    flex: 1;
+    
+}
+
+div.bg-yellow {
+    background-color: #FFF4A3;
+    margin-bottom: 20px;
+}
+
+div.bg-pink {
+    background-color: #FFC0C7;
+    margin-bottom: 20px;
+}
+
+/* div.bg-green {
+    background-color: #D9EEE1;
+    margin-bottom: 20px;
+} */
+
+@media (max-width: 800px) {
+    .bg-green {
+        background: #3041d9;
+    }
+}
+
+@media (max-width: 500px) {
+    .bg-green {
+        background: rgb(190, 135, 40);
+    }
+    .bg-pink {
+       display: none;
+    }
+}
