@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.request {
+    border: 1px solid #000000;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.hamburger {
+    display: none;
+    width: 25px;
+}
+
+
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.left, .right {
+    flex: 1;
+}
+
+
+.button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+}
+
+.logo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.logo2 img {
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+.header2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header3 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 60px auto;
+    max-width: 900px;
+}
+
+.Team {
+    background-color: #b8ff5a;
+    padding: 10px 20px;
+    border-radius: 6px;
+    width: 80px;
+
+}
+
+@media (max-width: 600px) {
+    .menu {
+       display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+}
+
+@media (max-width: 450px) {
+    .header2 {
+        flex-direction: column-reverse; 
+    }
+
+    .header3 {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .team {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 15px;
+    }
+
+    .card {
+        padding: 24px 20px;
+    }
+    
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 80px auto;
+}
+
+.member {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 25px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.member:hover {
+    transform: translateY(-5px);
+}
+
+.member img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.member h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.member .role {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.member p {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.6;
+}
+
+
