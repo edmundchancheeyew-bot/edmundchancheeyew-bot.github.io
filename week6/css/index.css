@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.banner {
+    min-height: 500px;
+    background-image: url('../image/background.jpg');
+    background-size: cover;
+    padding: 60px;
+
+}
+
+.banner-content{
+    width: 50%;
+}
+
+.subscribe-form{
+    display: inline-block;
+    background-color: white;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.subscribe-button {
+    background-color: #f84646;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 3px;
+    
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.request {
+    background-color: #f84646;
+    border: none;
+    padding: 10px;
+}
+
+.email-input {
+    border: none;
+}
+
+.banner2 {
+    margin:auto;
+    text-align: center;
+}
+
+.banner2-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.banner3 {
+    min-height: 50px;
+    background-image: url('../image/background2.png');
+    background-color: #ff0000;
+    background-size: cover;
+    padding: 60px;
+    margin:auto;
+    text-align: center;
+    color: white;
+
+}
+
+.test-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:    80px;
+}
+
+
+
+@media (max-width: 1024px) {
+    .banner-content{
+        width: 70%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .banner{
+        background-position: center right;
+    }
+    .banner-content{
+        width: 100%;
+        text-align: center;
+    }
+}
