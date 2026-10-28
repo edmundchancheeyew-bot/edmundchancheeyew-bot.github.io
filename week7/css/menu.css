@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.backgound {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+
+    z-index: 0;
+}
+
+.background-left {
+    width: 40%;
+    height: 100%;
+}
+
+.background-right {
+    width: 60%;
+    height: 100%;
+}
+
+.background-left img,
+.background-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.banner {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    min-height: 100vh;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    width: 60px;
+    height: auto;
+}
+
+.logo h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+    margin: 0;
+}
+
+.menu {
+    font-family: "Work Sans";
+    font-size: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu div {
+    cursor: pointer;
+}
+
+.menu img {
+    width: 25px;
+    height: auto;
+}
+
+
+.menu-left {
+    width: 40%;
+    min-height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+
+
+.welcome {
+    font-family: "Work Sans";
+    font-size: 15px;
+    margin: 0 0 30px;
+    letter-spacing: 2px;
+}
+
+.menu-left h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 95px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin: 0 0 40px;
+}
+
+.description {
+    font-family: "Lora";
+    font-size: 19px;
+    max-width: 380px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.popular {
+    background-color: white;
+    color: black;
+    text-align: center;
+    align-items: center;
+    padding: 60px 60px 80px;
+}
+
+.popular-title p {
+    font-size: 46px;
+    font-style: italic;
+}
+
+.popular-title h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+}
+
+.popular-description {
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: "Lora";
+}
+
+.popular-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin-top: 60px;
+}
+
+.popular-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dessert-image {
+    width: 200px;
+    height: 230px;
+    background-image: url("../image/dessert.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.chef-image {
+    width: 360px;
+    height: 400px;
+    background-image: url("../image/ChefSpecials.jpg");
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.seasonal-image {
+    width: 200px;
+    height: 230px;
+    background-image: url("../image/Seasonal.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
