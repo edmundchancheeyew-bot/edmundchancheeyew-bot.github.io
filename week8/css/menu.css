@@ -79,3 +79,1134 @@
     background-position: center;
     background-image: url("../image/picleft.png");
 }
+
+.main-course-content {
+    width: 50%;
+    padding: 45px 60px;
+    box-sizing: border-box;
+}
+
+.main-course-content > h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    margin: 0 0 30px;
+}
+
+.course-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.course-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course-name h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+.course-name h2 {
+    font-size: 15px;
+}
+
+.course-item p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 4px 0 0;
+}
+
+.dessert-banner {
+    width: 100%;
+    height: 220px;
+
+    background-image:url("../image/cake.png");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dessert-banner h1 {
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.dessert-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
+
+    width: 100%;
+    padding: 40px 50px;
+
+    box-sizing: border-box;
+    padding-bottom: 150px;
+}
+
+
+.dessert-item {
+    width: 100%;
+    max-width: 300px;
+    height: 400px;
+}
+
+.dessert-photo {
+    width: 100%;
+    height: 400px;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.pie {
+    background-image: url("../image/Lime Pie With Dark Crust.png");
+}
+
+.tiramisu {
+    background-image: url("../image/Classic Tiramisu.png");
+}
+
+.cake {
+    background-image: url("../image/Rasberry And Pear Cake.png");
+}
+
+.brulee {
+    background-image: url("../image/CRÈME BRÛLÉE.png");
+}
+
+.dessert-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    padding: 5px 0;
+}
+
+.dessert-info h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 14px;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.dessert-info p {
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.dessert2,
+.dessert4 {
+    margin-top: 110px;
+}
+
+
+.cocktail {
+    width: 100%;
+    height: 700px;
+
+    background-image: url("../image/croctails.png");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+}
+
+.cocktail-content {
+    color: white;
+    margin-left: 10%;
+    margin-top: -30px;
+}
+
+.cocktail-content h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.cocktail-small {
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-top: 8px;
+}
+
+.cocktail-line {
+    width: 55px;
+    height: 1px;
+    background-color: #999;
+    margin: 55px 0 25px;
+}
+
+.cocktail-description {
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0 0 35px;
+}
+
+.cocktail-content button {
+    background: transparent;
+    color: white;
+
+    border: 1px solid white;
+
+    padding: 14px 22px;
+
+    font-size: 11px;
+    letter-spacing: 1px;
+
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .header {
+        width: 100%;
+        padding: 15px 25px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 45px;
+        height: auto;
+    }
+
+    .logo h2 {
+        font-size: 18px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    /* Hamburger 显示 */
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger img {
+        width: 30px;
+        height: auto;
+    }
+
+    .banner {
+        width: 100%;
+        height: auto;
+    }
+
+    .backgound {
+        width: 100%;
+        height: 400px;
+    }
+
+    .background-left,
+    .background-right {
+        width: 100%;
+        height: 100%;
+    }
+
+    .background-left img,
+    .background-right img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .menu-left {
+        padding: 30px;
+    }
+
+    .menu-left h1 {
+        font-size: 45px;
+        line-height: 1.1;
+    }
+
+    .welcome {
+        font-size: 11px;
+    }
+
+    .description {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .popular {
+        width: 100%;
+        padding: 50px 30px;
+    }
+
+    .popular-title {
+        text-align: center;
+    }
+
+    .popular-title h1 {
+        font-size: 45px;
+        margin: 5px 0;
+    }
+
+    .popular-description {
+        max-width: 600px;
+        margin: 15px auto 40px;
+        line-height: 1.6;
+    }
+
+    .popular-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 100%;
+        gap: 30px;
+    }
+
+    .popular-item {
+        width: 80%;
+        max-width: 700px;
+        margin: 0;
+    }
+
+    .dessert-image,
+    .chef-image,
+    .seasonal-image {
+        width: 100%;
+        height: 450px;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .popular-item h2 {
+        font-size: 25px;
+    }
+
+
+    .atmosphere {
+        width: 100%;
+        min-height: 450px;
+
+        background-size: cover;
+        background-position: center;
+    }
+
+    .atmosphere-content {
+        padding: 60px 40px;
+    }
+
+    .atmosphere-content h1 {
+        font-size: 45px;
+    }
+
+    .atmosphere-content p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .food-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 100%;
+        padding: 50px 30px;
+
+        gap: 30px;
+    }
+
+    .food-item {
+        width: 80%;
+        max-width: 700px;
+        height: 500px;
+
+        margin: 0;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+
+        padding: 20px;
+    }
+
+    .food-item p {
+        margin: 0;
+
+        color: white;
+        text-align: right;
+
+        font-size: 18px;
+
+        white-space: normal;
+    }
+
+    .main-course {
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        min-height: auto;
+    }
+
+    .main-course-image {
+        width: 100%;
+        height: 500px;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .main-course-content {
+        width: 100%;
+
+        padding: 50px 50px 60px;
+    }
+
+    .main-course-content > h1 {
+        font-size: 50px;
+        margin: 0 0 30px;
+    }
+
+    .course-item {
+        width: 100%;
+        padding: 15px 0;
+
+        border-bottom: 1px solid #ddd;
+    }
+
+    .course-name {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .course-name h2 {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .course-name span {
+        font-size: 12px;
+    }
+
+    .course-item p {
+        font-size: 14px;
+        line-height: 1.6;
+        margin: 5px 0 0;
+    }
+
+
+    .dessert-banner {
+        width: 100%;
+        height: 220px;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dessert-banner h1 {
+        font-size: 50px;
+        margin: 0;
+    }
+
+    .dessert-menu {
+       display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 100%;
+        gap: 40px;
+
+        padding: 40px 30px 80px;
+    }
+
+    .dessert-item {
+        width: 90%;
+        margin: 0;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dessert1,
+    .dessert2,
+    .dessert3,
+    .dessert4 {
+        margin-top: 0;
+    }
+
+    .dessert-photo {
+        width: 100%;
+        height: 500px;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .dessert-info {
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 5px 0 0;
+    }
+
+    .dessert-info h2 {
+        margin: 0;
+
+        font-size: 17px;
+        line-height: 1.2;
+    }
+
+    .dessert-info p {
+        margin: 0;
+        font-size: 11px;
+    }
+
+    .cocktail {
+        width: 100%;
+        height: 650px;
+
+        margin: 0;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .cocktail-content {
+        width: 60%;
+
+        margin: 0;
+        padding-left: 60px;
+
+        color: white;
+    }
+
+    .cocktail-content h1 {
+        font-size: 48px;
+        margin: 0;
+    }
+
+    .cocktail-small {
+        font-size: 10px;
+        letter-spacing: 2px;
+
+        margin-top: 8px;
+    }
+
+    .cocktail-line {
+        width: 55px;
+        height: 1px;
+
+        margin: 45px 0 25px;
+
+        background-color: #999;
+    }
+
+    .cocktail-description {
+        font-size: 14px;
+        line-height: 1.6;
+
+        margin-bottom: 30px;
+    }
+
+    .cocktail-content button {
+        padding: 14px 20px;
+
+        background: transparent;
+
+        color: white;
+
+        border: 1px solid white;
+
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+
+    .bottom {
+        width: 100%;
+
+        padding: 50px 30px;
+
+        text-align: center;
+    }
+
+    .bottom-content {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .bottom-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        gap: 10px;
+    }
+
+    .bottom-logo img {
+        width: 50px;
+        height: auto;
+    }
+
+    .bottom-logo h2 {
+        font-size: 20px;
+    }
+
+    .bottom-content p {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+
+        gap: 15px;
+
+        margin-top: 20px;
+    }
+
+    .social-icons img {
+        width: 25px;
+        height: 25px;
+        object-fit: contain;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .header {
+        width: 100%;
+        height: 70px;
+
+        padding: 10px 20px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .logo img {
+        width: 35px;
+        height: auto;
+    }
+
+    .logo h2 {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger img {
+        width: 22px;
+        height: auto;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    .backgound {
+        width: 100%;
+        height: 180px;
+    }
+
+    .background-left,
+    .background-right {
+        width: 100%;
+        height: 100%;
+    }
+
+    .background-left img,
+    .background-right img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .menu-left {
+        padding: 20px;
+    }
+
+    .menu-left h1 {
+        font-size: 32px;
+        line-height: 1;
+    }
+
+    .welcome {
+        font-size: 8px;
+    }
+
+    .description {
+        font-size: 11px;
+        line-height: 1.5;
+    }
+
+    .popular {
+        width: 100%;
+        padding: 0;
+    }
+
+    .popular-title {
+        padding: 25px 20px;
+    }
+
+    .popular-title h1 {
+        font-size: 32px;
+    }
+
+    .popular-description {
+        font-size: 11px;
+        line-height: 1.5;
+    }
+
+    .popular-menu {
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+
+        gap: 20px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .popular-item {
+        width: 100%;
+        max-width: none;
+
+        margin: 0;
+        padding: 0;
+    }
+
+    .dessert-image,
+    .chef-image,
+    .seasonal-image {
+        width: 100%;
+        height: 430px;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .food-menu {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 20px;
+
+        padding: 20px 0;
+        margin: 0;
+    }
+
+    .food-item {
+        width: 100%;
+        max-width: none;
+        height: 430px;
+
+        margin: 0;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+
+        padding: 10px;
+    }
+
+    .food-item p {
+        margin: 0;
+
+        width: 100%;
+
+        color: white;
+        text-align: center;
+
+        font-size: 11px;
+        line-height: 1.2;
+
+        white-space: normal;
+    }
+
+    .main-course {
+        display: block;
+
+        width: 100%;
+        min-height: auto;
+
+        margin: 0;
+    }
+
+    .main-course-image {
+        display: none;
+    }
+
+    .main-course-content {
+        width: 100%;
+
+        padding: 30px 25px 45px;
+    }
+
+    .main-course-content > h1 {
+        font-size: 35px;
+
+        text-align: center;
+
+        margin: 0 0 30px;
+    }
+
+    .course-item {
+        width: 100%;
+
+        padding: 10px 0;
+
+        border-bottom: 1px solid #ddd;
+    }
+
+    .course-name {
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .course-name h2 {
+        font-size: 12px;
+
+        margin: 0;
+    }
+
+    .course-name span {
+        font-size: 8px;
+
+        margin-left: 10px;
+        flex-shrink: 0;
+    }
+
+    .course-item p {
+        font-size: 9px;
+        line-height: 1.5;
+
+        margin: 5px 0 0;
+    }
+
+    .dessert-banner {
+        width: 100%;
+        height: 150px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .dessert-banner h1 {
+        margin: 0;
+
+        font-size: 35px;
+
+        color: white;
+    }
+
+    .dessert-menu {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 35px;
+
+        padding: 40px 30px;
+        margin: 0;
+    }
+
+    .dessert-item,
+    .dessert1,
+    .dessert2,
+    .dessert3,
+    .dessert4 {
+        width: 100%;
+
+        max-width: none;
+
+        margin: 0;
+        padding: 0;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dessert1 .dessert-photo,
+    .dessert2 .dessert-photo,
+    .dessert3 .dessert-photo,
+    .dessert4 .dessert-photo {
+        order: 1;
+    }
+
+    .dessert1 .dessert-info,
+    .dessert2 .dessert-info,
+    .dessert3 .dessert-info,
+    .dessert4 .dessert-info {
+        order: 2;
+    }
+
+    .dessert-photo {
+        width: 100%;
+        height: 500px;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        margin: 0;
+    }
+
+    .dessert-info {
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        margin: 0;
+        padding: 5px 0 0;
+    }
+
+    .dessert-info h2 {
+        margin: 0;
+        padding: 0;
+
+        font-size: 11px;
+        line-height: 1.2;
+
+        white-space: normal;
+    }
+
+    .dessert-info span {
+        margin: 0 0 0 10px;
+        padding: 0;
+
+        font-size: 8px;
+
+        flex-shrink: 0;
+    }
+
+    .atmosphere {
+        width: 100%;
+        min-height: 350px;
+
+        background-size: cover;
+        background-position: center;
+    }
+
+    .atmosphere-content {
+        padding: 40px 25px;
+    }
+
+    .atmosphere-content h1 {
+        font-size: 32px;
+    }
+
+    .atmosphere-content p {
+        font-size: 10px;
+        line-height: 1.6;
+    }
+
+    .cocktail {
+        width: 100%;
+        height: 430px;
+
+        margin: 0;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .cocktail-content {
+        width: 75%;
+
+        margin: 0;
+        padding: 30px 0 30px 25px;
+    }
+
+    .cocktail-content h1 {
+        margin: 0;
+
+        font-size: 28px;
+        line-height: 1;
+    }
+
+    .cocktail-small {
+        font-size: 7px;
+        letter-spacing: 1px;
+
+        margin-top: 5px;
+    }
+
+    .cocktail-line {
+        width: 35px;
+        height: 1px;
+
+        margin: 25px 0 15px;
+    }
+
+    .cocktail-description {
+        margin: 0 0 20px;
+
+        font-size: 9px;
+        line-height: 1.5;
+    }
+
+    .cocktail-content button {
+        padding: 10px 14px;
+
+        font-size: 7px;
+
+        background: transparent;
+        color: white;
+
+        border: 1px solid white;
+    }
+
+    .bottom {
+        width: 100%;
+
+        padding: 30px 20px;
+
+        text-align: center;
+    }
+
+    .bottom-content {
+        width: 100%;
+
+        margin: 0 auto;
+    }
+
+    .bottom-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        gap: 7px;
+    }
+
+    .bottom-logo img {
+        width: 35px;
+        height: auto;
+    }
+
+    .bottom-logo h2 {
+        margin: 0;
+
+        font-size: 14px;
+    }
+
+    .bottom-content p {
+        font-size: 9px;
+        line-height: 1.5;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+
+        gap: 12px;
+
+        margin-top: 15px;
+    }
+
+    .social-icons img {
+        width: 20px;
+        height: 20px;
+
+        object-fit: contain;
+    }
+
+}
