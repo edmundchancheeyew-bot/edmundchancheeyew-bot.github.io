@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.banner {
+    background-color: #000000;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    position: relative;
+    z-index: 10;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    width: 60px;
+    height: auto;
+}
+
+.logo h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+    margin: 0;
+}
+
+.menu {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu div {
+    cursor: pointer;
+}
+
+.menu img {
+    width: 25px;
+    height: auto;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bottom {
+    min-height: 480px;
+    background-image:url("../image/Rectangle\ 9.png"),url("../image/Environment.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.bottom-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.bottom-logo h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 32px;
+    margin: 0;
+}
+
+.bottom-content p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin: 25px 0 35px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
