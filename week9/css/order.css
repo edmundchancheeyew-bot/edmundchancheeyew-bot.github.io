@@ -1,0 +1,282 @@
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+    background-image:url("../image/Rectangle.png"),url("../image/CHEF.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.order-content {
+    padding: 300px 10%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.order-content h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.takeout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.takeout div {
+    width: 70px;
+    border-top: 1px solid white;
+}
+
+.favourites {
+    width: 100%;
+
+    padding: 50px 10%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    background-color: white;
+    color: black;
+
+    position: relative;
+    z-index: 2;
+}
+
+.favourites-left {
+    text-align: left;
+}
+
+.small-title {
+    margin: 0 0 18px;
+    font-size: 11px;
+}
+
+.favourites-left h2 {
+    margin: 0 0 25px;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 24px;
+}
+
+.favourites-description {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.favourites-right button {
+    width: 130px;
+    height: 40px;
+
+    background-color: white;
+    color: black;
+
+    border: 1px solid #aaa;
+    cursor: pointer;
+}
+
+.food-section {
+    background-color: black;
+    color: white;
+
+    padding: 70px 10%;
+}
+
+.food-title {
+    margin-bottom: 30px;
+}
+
+.food-title p {
+    font-size: 11px;
+    margin: 0 0 15px;
+}
+
+.food-title h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    margin: 0;
+}
+
+.food-list {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.food-card {
+    width: 50%;
+    background-color: #333333;
+}
+
+.lobster-image,
+.duck-image {
+    width: 100%;
+    height: 380px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lobster-image {
+    background-image: url("../image/lobster.png");
+}
+
+.duck-image {
+    background-image: url("../image/duck.png");
+}
+
+.food-info {
+    padding: 30px;
+}
+
+.food-type {
+    font-size: 11px;
+    margin: 0 0 15px;
+}
+
+.food-info h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+
+    margin: 0 0 20px;
+}
+
+.food-description {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.price {
+    color: #d4b06a;
+    font-size: 14px;
+}
+
+.food-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    margin-top: 20px;
+}
+
+.quantity {
+    display: flex;
+}
+
+.quantity button,
+.quantity span {
+    width: 36px;
+    height: 36px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: transparent;
+    color: white;
+
+    border: 1px solid #777;
+}
+
+.quantity button {
+    cursor: pointer;
+}
+
+.cart-button {
+    height: 36px;
+    padding: 0 35px;
+
+    background-color: #caaa6a;
+    color: white;
+
+    border: none;
+    cursor: pointer;
+}
+
+.view-button {
+    height: 36px;
+    padding: 0 30px;
+
+    background-color: transparent;
+    color: white;
+
+    border: 1px solid #777;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    margin: 0;
+    text-align: center;
+    width: 108px;
+}
+
+.value-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #777;
+    margin: 0;
+
+    width: 36px;
+    height: 32px;
+
+    padding: 0;
+
+    background: transparent;
+    color: white;
+
+    font: inherit;
+    font-size: 12px;
+}
+
+.value-button:hover {
+    cursor: pointer;
+}
+
+form .decrease {
+    margin-right: 0;
+}
+
+form .increase {
+    margin-left: 0;
+}
+
+input.quantity {
+    text-align: center;
+
+    border: 1px solid #777;
+    border-left: none;
+    border-right: none;
+
+    margin: 0;
+
+    width: 36px;
+    height: 32px;
+
+    padding: 0;
+
+    background-color: transparent;
+    color: white;
+
+    outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
