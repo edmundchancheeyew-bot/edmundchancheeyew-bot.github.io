@@ -3,7 +3,7 @@
     width: 100%;
     height: 100vh;
 
-    background-image:url("../image/Rectangle.png"),url("../image/CHEF.png");
+    background-image: url("../image/Rectangle.png"), url("../image/CHEF.png");
 
     background-size: cover;
     background-position: center;
@@ -111,7 +111,7 @@
 .food-list {
     display: flex;
     gap: 20px;
-    
+
 }
 
 .food-card {
@@ -280,3 +280,1112 @@ input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+
+.pork-card {
+    max-width: 1200px;
+    height: 480px;
+
+    margin: 80px auto;
+
+    display: flex;
+
+    background-color: black;
+    color: white;
+}
+
+.pork-image {
+    width: 50%;
+    height: 100%;
+
+    background-image: url("../image/pork.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pork-content {
+    width: 50%;
+
+    padding: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pork-type {
+    font-size: 13px;
+    margin: 0 0 10px;
+}
+
+.pork-content h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 42px;
+
+    margin: 0 0 60px;
+}
+
+.pork-description {
+    font-size: 20px;
+    line-height: 1.6;
+
+    margin: 0 0 30px;
+}
+
+.pork-bottom {
+    display: flex;
+    align-items: center;
+
+    gap: 50px;
+}
+
+.pork-bottom form {
+    display: flex;
+
+    margin: 0;
+    width: auto;
+}
+
+.pork-bottom .value-button,
+.pork-bottom .quantity {
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: transparent;
+    color: white;
+
+    border: 1px solid #777;
+
+    text-align: center;
+}
+
+.pork-bottom .quantity {
+    border-left: none;
+    border-right: none;
+
+    outline: none;
+}
+
+.add-cart {
+    width: 165px;
+    height: 55px;
+
+    background-color: #f4f4f4;
+    color: black;
+
+    border: none;
+
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.food-card2 {
+    flex: 1;
+    min-width: 0;
+
+    background-color: #333333;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.food-info2 {
+    padding: 25px;
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.food-buttons2 {
+    margin-top: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.food-title2 {
+    max-width: 1050px;
+    margin: 0 auto 30px;
+}
+
+.food-list2 {
+    max-width: 1050px;
+    margin: 0 auto;
+
+    display: flex;
+    gap: 18px;
+}
+
+
+.salmon-image,
+.sushi-image,
+.rolls-image {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.salmon-image {
+    background-image: url("../image/salmon.png");
+}
+
+.sushi-image {
+    background-image: url("../image/sushi.png");
+}
+
+.rolls-image {
+    background-image: url("../image/rolls.png");
+}
+
+.food-buttons2 form {
+    width: 100%;
+    display: flex;
+    margin: 0;
+}
+
+.value-button2 {
+    width: 25%;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: transparent;
+    color: white;
+
+    border: 1px solid #777;
+    cursor: pointer;
+}
+
+.quantity2 {
+    width: 50%;
+    height: 40px;
+
+    text-align: center;
+
+    background: transparent;
+    color: white;
+
+    border: 1px solid #777;
+    border-left: none;
+    border-right: none;
+
+    outline: none;
+}
+
+.cart-button2,
+.view-button2 {
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+
+.cart-button2 {
+    background-color: #c9a760;
+    color: white;
+    border: none;
+}
+
+.view-button2 {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #777;
+}
+
+.checkout-section {
+    width: 100%;
+
+    padding: 80px 20px 120px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+}
+
+.checkout-small {
+    font-size: 11px;
+    margin: 0 0 15px;
+}
+
+.checkout-section h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+
+    margin: 0 0 25px;
+}
+
+.checkout-description {
+    font-size: 17px;
+    margin: 0 0 30px;
+}
+
+.checkout-button {
+    background-color: #c9a76a;
+    color: white;
+
+    border: none;
+
+    padding: 15px 30px;
+
+    font-size: 11px;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+
+    body {
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+    .header {
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 15px 40px;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .logo img {
+        width: 40px;
+        height: auto;
+    }
+
+    .logo h2 {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    /* Desktop menu hide */
+    .menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger img {
+        width: 25px;
+        height: auto;
+        display: block;
+    }
+
+    .banner {
+        width: 100%;
+        height: 500px;
+
+        position: relative;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .order-content {
+        width: 100%;
+        height: 100%;
+
+        padding: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+    }
+
+    .order-content h1 {
+        font-size: 45px;
+        margin: 15px 0 0;
+    }
+
+    .takeout {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .takeout div {
+        width: 45px;
+    }
+
+    .favourites {
+        width: 100%;
+
+        padding: 45px 8%;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        background-color: white;
+        color: black;
+    }
+
+    .favourites-left {
+        max-width: 60%;
+    }
+
+    .favourites-right {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .food-section {
+        width: 100%;
+        padding: 60px 8%;
+    }
+
+    .food-title {
+        width: 100%;
+        max-width: 850px;
+
+        margin: 0 auto 30px;
+    }
+
+    .food-list {
+        width: 100%;
+        max-width: 850px;
+
+        margin: 0 auto;
+
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+
+        gap: 18px;
+    }
+
+    .food-card {
+        flex: 0 0 calc(50% - 9px);
+
+        min-width: 0;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lobster-image,
+    .duck-image {
+        width: 100%;
+
+        aspect-ratio: 1 / 1;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .food-info {
+        flex: 1;
+
+        display: flex;
+        flex-direction: column;
+
+        padding: 25px;
+    }
+
+    .food-info h2 {
+        font-size: 22px;
+    }
+
+    .food-description {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .food-buttons {
+        margin-top: auto;
+
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .price {
+        font-size: 13px;
+    }
+
+    .food-buttons2 {
+        width: 100%;
+
+        margin-top: auto;
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 8px;
+    }
+
+    .food-buttons2 form {
+        width: 100%;
+
+        display: flex;
+
+        margin: 0;
+    }
+
+    .value-button2 {
+        width: 25%;
+        height: 36px;
+    }
+
+    .quantity2 {
+        width: 50%;
+        height: 36px;
+    }
+
+    .cart-button2,
+    .view-button2 {
+        width: 100%;
+        height: 36px;
+    }
+
+    .pork-card {
+        width: 85%;
+        max-width: 850px;
+        height: auto;
+
+        margin: 70px auto;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pork-image {
+        width: 100%;
+        height: 420px;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .pork-content {
+        width: 100%;
+
+        padding: 50px 10% 60px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+
+        text-align: left;
+    }
+
+    .pork-type {
+        margin: 0 0 20px;
+        text-align: left;
+    }
+
+    .pork-content h2 {
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 42px;
+
+        margin: 0 0 40px;
+
+        text-align: left;
+    }
+
+    .pork-description {
+        width: 100%;
+        margin: 0 0 55px;
+
+        font-size: 18px;
+        line-height: 1.5;
+
+        text-align: left;
+    }
+
+    .pork-bottom {
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        gap: 80px;
+    }
+
+    .pork-bottom form {
+        width: 370px;
+        margin: 0;
+
+        display: flex;
+    }
+
+    .pork-bottom .value-button {
+        width: 33.33%;
+        height: 55px;
+    }
+
+    .pork-bottom .quantity {
+        width: 33.33%;
+        height: 55px;
+    }
+
+    .food-list2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        gap: 18px;
+    }
+
+    .food-card2 {
+        flex: 0 0 calc(50% - 9px);
+        min-width: 0;
+    }
+
+    .checkout-section {
+        width: 100%;
+
+        padding-top: 300px;
+       
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+    }
+
+    .checkout-small {
+        font-size: 10px;
+    }
+
+    .checkout-section h2 {
+        font-size: 25px;
+    }
+
+    .checkout-description {
+        font-size: 14px;
+    }
+
+    .bottom {
+        width: 100%;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .bottom-content {
+        padding: 60px 30px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        text-align: center;
+    }
+
+    .bottom-logo {
+        display: flex;
+        align-items: center;
+
+        gap: 10px;
+    }
+
+    .bottom-logo img {
+        width: 40px;
+    }
+
+    .bottom-logo h2 {
+        font-size: 24px;
+    }
+
+    .bottom-content p {
+        max-width: 500px;
+
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+
+        gap: 12px;
+    }
+
+    .social-icons img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    body {
+        margin: 0;
+        overflow-x: hidden;
+    }
+    .header {
+        width: 100%;
+        padding: 12px 20px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .logo img {
+        width: 30px;
+        height: auto;
+    }
+
+    .logo h2 {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger img {
+        width: 22px;
+        height: auto;
+        display: block;
+    }
+
+    .banner {
+        width: 100%;
+        height: 300px;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .order-content {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+    }
+
+    .takeout {
+        display: none;
+    }
+
+    .desktop-title {
+        display: none;
+    }
+
+    .tablet-title {
+        display: block;
+        font-size: 32px;
+        margin: 0;
+    }
+
+    .favourites {
+        width: 100%;
+
+        padding: 35px 25px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        gap: 20px;
+    }
+
+    .favourites-left {
+        max-width: 65%;
+    }
+
+    .small-title {
+        font-size: 8px;
+        margin-bottom: 10px;
+    }
+
+    .favourites-left h2 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .favourites-description {
+        font-size: 9px;
+        line-height: 1.5;
+    }
+
+    .favourites-description br {
+        display: none;
+    }
+
+    .favourites-right button {
+        width: 85px;
+        height: 32px;
+        font-size: 8px;
+    }
+
+    .food-list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        width: 100%;
+        max-width: 100%;
+
+        gap: 25px;
+    }
+
+    .lobster-image,
+    .duck-image {
+        width: 100%;
+        aspect-ratio: 4 / 3;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .food-info {
+        width: 100%;
+        padding: 25px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .food-card {
+        width: 100%;
+        max-width: 100%;
+
+        flex: 0 0 100%;
+    }
+
+    .food-section {
+        width: 100%;
+        padding: 50px 25px;
+    }
+
+    .food-title {
+        width: 100%;
+        margin: 0 0 25px;
+    }
+
+    .food-title p {
+        font-size: 8px;
+    }
+
+    .food-title h1 {
+        font-size: 20px;
+    }
+
+    .food-section {
+        width: 100%;
+        padding: 50px 25px;
+    }
+
+    .food-title {
+        width: 100%;
+        margin: 0 0 25px;
+    }
+
+    .food-title p {
+        font-size: 8px;
+    }
+
+    .food-title h1 {
+        font-size: 20px;
+    }
+
+    .food-list2 {
+        width: 100%;
+        max-width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        gap: 25px;
+        margin: 0;
+    }
+
+    .food-card2 {
+        width: 100%;
+        max-width: 100%;
+
+        flex: none;
+    }
+
+    .salmon-image,
+    .sushi-image,
+    .rolls-image {
+        width: 100%;
+
+        aspect-ratio: 4 / 3;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .food-info {
+        width: 100%;
+        padding: 20px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .food-info h2 {
+        min-height: 0;
+
+        font-size: 20px;
+        margin: 0 0 15px;
+    }
+
+    .food-description {
+        min-height: 0;
+
+        font-size: 10px;
+        line-height: 1.5;
+
+        margin-bottom: 15px;
+    }
+
+    .price {
+        font-size: 10px;
+    }
+
+    .food-buttons,
+    .food-buttons2 {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .food-buttons2 {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+    }
+
+    .food-buttons2 form {
+        width: 100%;
+        display: flex;
+        margin: 0;
+    }
+
+    .value-button2 {
+        width: 25%;
+        height: 32px;
+    }
+
+    .quantity2 {
+        width: 50%;
+        height: 32px;
+    }
+
+    .cart-button2,
+    .view-button2 {
+        width: 100%;
+        height: 32px;
+
+        font-size: 8px;
+    }
+    
+    .pork-card {
+        width: 100%;
+        max-width: none;
+        height: auto;
+
+        margin: 40px 0;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pork-image {
+        width: 100%;
+        height: 280px;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .pork-content {
+        width: 100%;
+
+        padding: 30px 25px;
+
+        display: flex;
+        flex-direction: column;
+
+        text-align: left;
+    }
+
+    .pork-type {
+        margin: 0 0 10px;
+        font-size: 8px;
+    }
+
+    .pork-content h2 {
+        margin: 0 0 20px;
+
+        font-size: 24px;
+        text-align: left;
+    }
+
+    .pork-description {
+        width: 100%;
+        margin: 0 0 25px;
+
+        font-size: 10px;
+        line-height: 1.5;
+
+        text-align: left;
+    }
+
+    .pork-bottom {
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        gap: 20px;
+    }
+
+    .pork-bottom form {
+        width: 50%;
+        margin: 0;
+
+        display: flex;
+    }
+
+    .pork-bottom .value-button,
+    .pork-bottom .quantity {
+        width: 33.33%;
+        height: 35px;
+    }
+
+    .add-cart {
+        width: 45%;
+        height: 35px;
+
+        font-size: 8px;
+    }
+
+    .checkout-section {
+        width: 100%;
+
+        padding: 80px 20px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+    }
+
+    .checkout-small {
+        font-size: 7px;
+    }
+
+    .checkout-section h2 {
+        font-size: 20px;
+    }
+
+    .checkout-description {
+        font-size: 9px;
+    }
+
+    .checkout-button {
+        padding: 10px 20px;
+        font-size: 8px;
+    }
+
+    .bottom {
+        width: 100%;
+
+        background-size: cover;
+        background-position: center;
+    }
+
+    .bottom-content {
+        padding: 50px 25px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        text-align: center;
+    }
+
+    .bottom-logo img {
+        width: 30px;
+    }
+
+    .bottom-logo h2 {
+        font-size: 18px;
+    }
+
+    .bottom-content p {
+        max-width: 300px;
+
+        font-size: 8px;
+        line-height: 1.5;
+    }
+
+    .bottom-content p br {
+        display: none;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+
+        gap: 8px;
+    }
+
+    .social-icons img {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+
