@@ -1,0 +1,222 @@
+.promotion {
+    
+    display: flex;
+
+    background-color: black;
+    color: white;
+}
+
+.promotion-image {
+    flex: 1;
+
+    background-image: url("../image/cocktail.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.promotion-content {
+    flex: 1;
+
+    padding: 80px;
+
+    justify-content: center;
+}
+
+.promotion-small {
+    margin: 0 0 35px;
+
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.promotion-content h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 64px;
+    line-height: 1.15;
+
+    margin: 0 0 45px;
+}
+
+.promotion-description {
+    font-size: 16px;
+    line-height: 1.6;
+
+    margin: 0 0 25px;
+}
+
+.promotion-offer {
+    font-size: 15px;
+
+    margin: 0 0 40px;
+}
+
+.discover-button {
+    background-color: transparent;
+    color: white;
+
+    border: 1px solid #777;
+
+    padding: 12px 20px;
+
+    font-size: 11px;
+
+    cursor: pointer;
+}
+
+.seasonal {
+    background-color: white;
+    color: black;
+
+    padding: 80px 8% 100px;
+    text-align: center;
+}
+
+.seasonal-title {
+    max-width: 900px;
+    margin: 0 auto 60px;
+}
+
+.seasonal-title p {
+    font-family: Georgia, serif;
+    font-size: 34px;
+    font-style: italic;
+
+    margin: 0 0 15px;
+}
+
+.seasonal-line {
+    width: 45px;
+
+    border-top: 1px solid #ddd;
+
+    margin: 0 auto 35px;
+}
+
+.seasonal-title h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 42px;
+
+    margin: 0 0 30px;
+}
+
+.seasonal-description {
+    font-family: Georgia, serif;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.seasonal-list {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    gap: 50px;
+}
+
+.seasonal-card {
+    flex: 1;
+    text-align: center;
+}
+
+.beef-image,
+.ribeye-image,
+.lychee-image {
+    width: 100%;
+    max-width: 260px;
+    height: 360px;
+
+    margin: 0 auto 25px;
+
+    background-size: cover;
+    background-position: center;
+
+}
+
+.beef-image {
+    background-image: url("../image/beef.png");
+}
+
+.ribeye-image {
+    background-image: url("../image/ribeye.png");
+}
+
+.lychee-image {
+    background-image: url("../image/lychee.png");
+}
+
+.seasonal-card h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+
+    margin: 0 0 20px;
+}
+
+.seasonal-card p {
+    font-family: Georgia, serif;
+    font-size: 14px;
+
+    line-height: 1.5;
+
+    min-height: 45px;
+    margin: 0 0 20px;
+}
+
+.seasonal-card button {
+    width: 115px;
+    height: 32px;
+
+    background-color: white;
+    color: black;
+
+    border: 1px solid #bbb;
+
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.seasonal-card button {
+    color: black;
+}
+
+.romantic {
+    width: 100%;
+    min-height: 500px;
+
+    background-image: url("../image/romantic.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+.romantic-content {
+    width: 100%;
+    max-width: 700px;
+
+    text-align: center;
+}
+
+.romantic-small {
+    font-size: 12px;
+    margin: 0 0 15px;
+}
+
+.romantic-content h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    margin: 0 0 25px;
+}
+
+.romantic-description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 auto;
+}
