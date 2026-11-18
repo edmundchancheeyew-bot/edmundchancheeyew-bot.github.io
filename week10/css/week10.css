@@ -220,3 +220,710 @@
     line-height: 1.6;
     margin: 0 auto;
 }
+
+.romantic-special {
+    width: 100%;
+    background-color: white;
+    padding: 50px 0;
+}
+
+.romantic-gallery {
+    position: relative;
+
+    width: 1200px;
+    height: 1000px;
+
+    margin: 0 auto;
+}
+
+.dessert-one {
+    position: relative;
+
+    top: 0;
+    left: 200px;
+
+    width: 500px;
+    height: 600px;
+
+    background-image: url("../image/dessert-one.png");
+    background-size: cover;
+    background-position: center;
+
+    z-index: 3;
+    
+}
+
+.text-one {
+    position: absolute;
+
+    top: 220px;
+    right: 0px;
+
+    margin: 0;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+}
+
+.text-two {
+    position: absolute;
+
+    top: 650px;
+    left: 350px;
+
+    margin: 0;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+}
+
+.dessert-two {
+    position: absolute;
+
+    top: 390px;
+    right: 200px;
+
+    width: 380px;
+    height: 450px;
+
+    background-image: url("../image/dessert-two.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.drink-image {
+    position: absolute;
+
+    top: 780px;
+    left: 380px;
+
+    width: 320px;
+    height: 400px;
+
+    background-image: url("../image/drink.png");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.text-three {
+    position: absolute;
+
+    top: 960px;
+    right: 0;
+
+    margin: 0;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+}
+
+.reserve {
+    text-align: center;
+    margin-top: 250px;
+}
+
+.reserve-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 15px;
+}
+
+.reserve-line p {
+    font-size: 10px;
+}
+
+.reserve-line div {
+    width: 20px;
+    border-top: 1px solid #aaa;
+}
+
+.reserve button {
+    width: 120px;
+    height: 32px;
+
+    margin-top: 10px;
+
+    background-color: white;
+    color: black;
+
+    border: 1px solid #bbb;
+
+    font-size: 10px;
+
+    cursor: pointer;
+}
+
+.membership {
+    width: 100%;
+    min-height: 500px;
+
+    background-image: url("../image/membership.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+.membership-content {
+    width: 80%;
+    max-width: 1000px;
+
+    text-align: center;
+}
+
+.membership-content h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+
+    margin: 0 0 35px;
+}
+
+.membership-content p {
+    font-family: Georgia, serif;
+    font-size: 17px;
+    line-height: 1.7;
+
+    margin: 0;
+}
+
+.membership-plans {
+    width: 100%;
+    max-width: 1200px;
+
+    margin: 0 auto;
+    padding: 50px 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+
+    gap: 80px;
+
+    background-color: white;
+}
+
+.membership-card {
+    width: 330px;
+    height: 470px;
+
+    padding: 35px 40px;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.classic-card {
+    background-image: url("../image/classic.jpg");
+}
+
+.prestige-card {
+    background-image: url("../image/prestige.jpg");
+}
+
+.elite-card {
+    background-image: url("../image/elite.jpg");
+}
+
+.membership-name {
+    text-align: center;
+
+    font-size: 13px;
+
+    margin: 0 0 35px;
+}
+
+.membership-card h2 {
+    font-family: "Bebas Neue", sans-serif;
+
+    font-size: 28px;
+    font-weight: 400;
+
+    text-align: center;
+
+    margin: 0 0 35px;
+}
+
+.membership-benefits {
+    flex: 1;
+}
+
+.membership-benefits p {
+    font-family: Georgia, serif;
+
+    font-size: 16px;
+    line-height: 1.5;
+
+    margin: 0 0 20px;
+}
+
+.membership-card button {
+    width: 170px;
+    height: 38px;
+
+    margin: 0 auto;
+
+    background-color: transparent;
+    color: white;
+
+    border: 1px solid #999;
+
+    font-size: 12px;
+
+    cursor: pointer;
+}
+
+.membership-card button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* =====================================
+   TABLET - 1024PX
+===================================== */
+
+@media (max-width: 1024px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+
+    /* =====================================
+       HEADER
+    ===================================== */
+
+    .header {
+        width: 100%;
+        padding: 15px 35px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .logo img {
+        width: 35px;
+        height: auto;
+    }
+
+    .logo h2 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger img {
+        display: block;
+        width: 22px;
+        height: auto;
+    }
+
+
+    /* =====================================
+       GOLDEN SUNSET PROMOTION
+    ===================================== */
+
+    .promotion {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .promotion-image {
+        width: 100%;
+        height: 700px;
+
+        position: absolute;
+        top: 50px;
+
+
+        background-size: cover;
+        background-position: center;
+    }
+
+    .promotion-content {
+        width: 100%;
+
+        padding: 55px 15% 70px;
+
+        position: relative;
+        margin-top: 500px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        background-color: black;
+    }
+
+    .promotion-content h1 {
+        font-size: 48px;
+        margin-bottom: 25px;
+    }
+
+    .promotion-description {
+        font-size: 13px;
+    }
+
+
+    /* =====================================
+       SEASONAL SPECIAL
+    ===================================== */
+
+    .seasonal {
+        padding: 70px 15%;
+    }
+
+    .seasonal-title {
+        margin-bottom: 50px;
+    }
+
+    .seasonal-title > p {
+        font-size: 28px;
+    }
+
+    .seasonal-title h1 {
+        font-size: 32px;
+    }
+
+    .seasonal-description {
+        font-size: 11px;
+    }
+
+
+    /* 3 cards become one column */
+    .seasonal-list {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 65px;
+    }
+
+    .seasonal-card {
+        width: 100%;
+    }
+
+    .beef-image,
+    .ribeye-image,
+    .lychee-image {
+        width: 220px;
+        height: 300px;
+
+        margin: 0 auto 25px;
+
+        border-radius: 50%;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .seasonal-card h2 {
+        font-size: 17px;
+    }
+
+    .seasonal-card p {
+        font-size: 10px;
+        min-height: auto;
+    }
+
+
+    /* =====================================
+       ROMANTIC BANNER
+    ===================================== */
+
+    .romantic {
+        width: 100%;
+        min-height: 300px;
+
+        background-size: cover;
+        background-position: center;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .romantic-content {
+        width: 80%;
+        text-align: center;
+    }
+
+    .romantic-content h1 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    .romantic-description {
+        font-size: 10px;
+    }
+
+
+    /* =====================================
+       ROMANTIC IMAGE GALLERY
+    ===================================== */
+
+    .romantic-special {
+        width: 100%;
+        padding: 50px 0;
+    }
+
+    .romantic-gallery {
+        position: relative;
+
+        width: 70%;
+        max-width: 600px;
+        height: auto;
+
+        margin: 0 auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 30px;
+    }
+
+
+    /* Important:
+       cancel Desktop absolute positions */
+
+    .dessert-one,
+    .dessert-two,
+    .drink-image {
+        position: relative;
+
+        top: auto;
+        left: auto;
+        right: auto;
+
+        z-index: auto;
+    }
+
+    .dessert-one {
+        width: 100%;
+        height: 430px;
+    }
+
+    .dessert-two {
+        width: 75%;
+        height: 350px;
+
+        align-self: flex-end;
+    }
+
+    .drink-image {
+        width: 65%;
+        height: 320px;
+
+        align-self: flex-start;
+        margin-left: 20%;
+    }
+
+
+    /* Gallery text */
+
+    .text-one,
+    .text-two,
+    .text-three {
+        position: relative;
+
+        top: auto;
+        left: auto;
+        right: auto;
+
+        margin: 0;
+
+        font-size: 11px;
+    }
+
+    .text-one {
+        align-self: flex-end;
+    }
+
+    .text-two {
+        align-self: flex-start;
+        margin-left: 25%;
+    }
+
+    .text-three {
+        align-self: flex-end;
+    }
+
+
+    /* Reserve */
+
+    .reserve {
+        position: relative;
+
+        bottom: auto;
+        left: auto;
+
+        transform: none;
+
+        width: 100%;
+
+        margin-top: 20px;
+
+        text-align: center;
+    }
+
+
+    /* =====================================
+       MEMBERSHIP HERO
+    ===================================== */
+
+    .membership {
+        width: 100%;
+        min-height: 300px;
+
+        background-size: cover;
+        background-position: center;
+    }
+
+    .membership-content {
+        width: 75%;
+    }
+
+    .membership-content h1 {
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+
+    .membership-content p {
+        font-size: 11px;
+        line-height: 1.6;
+    }
+
+
+    /* =====================================
+       MEMBERSHIP CARDS
+       2 first row + 1 second row
+    ===================================== */
+
+    .membership-plans {
+        width: 100%;
+
+        padding: 45px 12%;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: stretch;
+
+        gap: 30px;
+    }
+
+    .membership-card {
+        width: calc(50% - 15px);
+        height: 400px;
+
+        padding: 25px;
+
+        flex: 0 0 calc(50% - 15px);
+
+        background-size: cover;
+        background-position: center;
+    }
+
+    .membership-name {
+        font-size: 9px;
+        margin-bottom: 25px;
+    }
+
+    .membership-card h2 {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .membership-benefits p {
+        font-size: 11px;
+        margin-bottom: 15px;
+    }
+
+    .membership-card button {
+        width: 80%;
+        height: 32px;
+
+        font-size: 9px;
+    }
+
+
+    /* =====================================
+       FOOTER
+    ===================================== */
+
+    .bottom {
+        width: 100%;
+
+        background-size: cover;
+        background-position: center;
+    }
+
+    .bottom-content {
+        padding: 50px 30px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        text-align: center;
+    }
+
+    .bottom-logo img {
+        width: 35px;
+    }
+
+    .bottom-logo h2 {
+        font-size: 20px;
+    }
+
+    .bottom-content p {
+        max-width: 450px;
+
+        font-size: 10px;
+        line-height: 1.6;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .social-icons img {
+        width: 25px;
+        height: 25px;
+    }
+}
