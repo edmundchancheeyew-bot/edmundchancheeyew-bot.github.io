@@ -1,5 +1,5 @@
 .promotion {
-    
+    width: 100%;
     display: flex;
 
     background-color: black;
@@ -8,6 +8,7 @@
 
 .promotion-image {
     flex: 1;
+    min-width: 0;
 
     background-image: url("../image/cocktail.png");
     background-size: cover;
@@ -16,6 +17,7 @@
 
 .promotion-content {
     flex: 1;
+    min-width: 0;
 
     padding: 80px;
 
@@ -230,7 +232,8 @@
 .romantic-gallery {
     position: relative;
 
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     height: 1000px;
 
     margin: 0 auto;
@@ -493,20 +496,11 @@
     color: black;
 }
 
-/* =====================================
-   TABLET - 1024PX
-===================================== */
-
 @media (max-width: 1024px) {
 
     body {
         overflow-x: hidden;
     }
-
-
-    /* =====================================
-       HEADER
-    ===================================== */
 
     .header {
         width: 100%;
@@ -536,6 +530,7 @@
     }
 
     .hamburger {
+        position: relative;
         display: block;
     }
 
@@ -544,11 +539,6 @@
         width: 22px;
         height: auto;
     }
-
-
-    /* =====================================
-       GOLDEN SUNSET PROMOTION
-    ===================================== */
 
     .promotion {
         width: 100%;
@@ -593,11 +583,6 @@
         font-size: 13px;
     }
 
-
-    /* =====================================
-       SEASONAL SPECIAL
-    ===================================== */
-
     .seasonal {
         padding: 70px 15%;
     }
@@ -618,8 +603,6 @@
         font-size: 11px;
     }
 
-
-    /* 3 cards become one column */
     .seasonal-list {
         width: 100%;
 
@@ -659,10 +642,6 @@
     }
 
 
-    /* =====================================
-       ROMANTIC BANNER
-    ===================================== */
-
     .romantic {
         width: 100%;
         min-height: 300px;
@@ -689,11 +668,6 @@
         font-size: 10px;
     }
 
-
-    /* =====================================
-       ROMANTIC IMAGE GALLERY
-    ===================================== */
-
     .romantic-special {
         width: 100%;
         padding: 50px 0;
@@ -714,10 +688,6 @@
 
         gap: 30px;
     }
-
-
-    /* Important:
-       cancel Desktop absolute positions */
 
     .dessert-one,
     .dessert-two,
@@ -751,9 +721,6 @@
         margin-left: 20%;
     }
 
-
-    /* Gallery text */
-
     .text-one,
     .text-two,
     .text-three {
@@ -781,9 +748,6 @@
         align-self: flex-end;
     }
 
-
-    /* Reserve */
-
     .reserve {
         position: relative;
 
@@ -798,11 +762,6 @@
 
         text-align: center;
     }
-
-
-    /* =====================================
-       MEMBERSHIP HERO
-    ===================================== */
 
     .membership {
         width: 100%;
@@ -825,12 +784,6 @@
         font-size: 11px;
         line-height: 1.6;
     }
-
-
-    /* =====================================
-       MEMBERSHIP CARDS
-       2 first row + 1 second row
-    ===================================== */
 
     .membership-plans {
         width: 100%;
@@ -880,10 +833,6 @@
     }
 
 
-    /* =====================================
-       FOOTER
-    ===================================== */
-
     .bottom {
         width: 100%;
 
@@ -925,5 +874,466 @@
     .social-icons img {
         width: 25px;
         height: 25px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .header {
+        width: 100%;
+        padding: 12px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .logo img {
+        width: 30px;
+        height: auto;
+    }
+
+    .logo h2 {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        margin: 0;
+    }
+
+    .hamburger img {
+        width: 20px;
+        height: auto;
+        display: block;
+    }
+
+    .promotion {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .promotion-image {
+        position: relative;
+        top: auto;
+
+        width: 100%;
+        height: 370px;
+
+        flex: none;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .promotion-content {
+        position: relative;
+
+        width: 100%;
+        margin-top: 0;
+
+        padding: 45px 12% 55px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .promotion-small {
+        font-size: 9px;
+        margin-bottom: 20px;
+    }
+
+    .promotion-content h1 {
+        font-size: 38px;
+        line-height: 1.1;
+        margin-bottom: 25px;
+    }
+
+    .promotion-description {
+        font-size: 11px;
+        line-height: 1.6;
+    }
+
+    .promotion-offer {
+        font-size: 11px;
+        margin-bottom: 25px;
+    }
+
+    .seasonal {
+        width: 100%;
+        padding: 55px 25px 70px;
+    }
+
+    .seasonal-title {
+        width: 100%;
+        margin-bottom: 45px;
+    }
+
+    .seasonal-title p {
+        font-size: 24px;
+    }
+
+    .seasonal-title h1 {
+        font-size: 28px;
+    }
+
+    .seasonal-description {
+        max-width: 400px;
+        margin: auto;
+
+        font-size: 10px;
+        line-height: 1.6;
+    }
+
+    .seasonal-list {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 55px;
+    }
+
+    .seasonal-card {
+        width: 100%;
+    }
+
+    .beef-image,
+    .ribeye-image,
+    .lychee-image {
+        width: 190px;
+        height: 270px;
+
+        margin: 0 auto 20px;
+
+        border-radius: 50%;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .seasonal-card h2 {
+        font-size: 16px;
+    }
+
+    .seasonal-card p {
+        min-height: 0;
+
+        font-size: 9px;
+        line-height: 1.5;
+    }
+
+    .romantic {
+        width: 100%;
+        min-height: 260px;
+
+        background-size: cover;
+        background-position: center;
+    }
+
+    .romantic-content {
+        width: 85%;
+        max-width: 450px;
+    }
+
+    .romantic-small {
+        font-size: 8px;
+    }
+
+    .romantic-content h1 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .romantic-description {
+        font-size: 9px;
+        line-height: 1.6;
+    }
+
+    .romantic-special {
+        width: 100%;
+        padding: 45px 0 60px;
+    }
+
+    .romantic-gallery {
+        position: relative;
+
+        width: 85%;
+        max-width: 500px;
+        height: auto;
+
+        margin: 0 auto;
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 20px;
+    }
+
+    .dessert-one {
+        position: relative;
+
+        top: auto;
+        left: auto;
+        right: auto;
+
+        width: 85%;
+        height: 330px;
+
+        align-self: flex-start;
+
+        margin: 0;
+
+        z-index: 3;
+    }
+
+    .text-one {
+        position: relative;
+
+        top: auto;
+        left: auto;
+        right: auto;
+
+        align-self: flex-end;
+
+        margin: 0;
+
+        font-size: 10px;
+    }
+
+    .text-two {
+        position: relative;
+
+        top: auto;
+        left: auto;
+        right: auto;
+
+        align-self: flex-start;
+
+        margin: 5px 0 5px 15%;
+
+        font-size: 10px;
+    }
+
+    .dessert-two {
+        position: relative;
+
+        top: auto;
+        left: auto;
+        right: auto;
+
+        width: 70%;
+        height: 300px;
+
+        align-self: flex-end;
+
+        margin: 0;
+
+        z-index: 2;
+    }
+
+    .drink-image {
+        position: relative;
+
+        top: auto;
+        left: auto;
+        right: auto;
+
+        width: 62%;
+        height: 280px;
+
+        align-self: flex-start;
+
+        margin: 0 0 0 15%;
+
+        z-index: 1;
+    }
+
+    .text-three {
+        position: relative;
+
+        top: auto;
+        left: auto;
+        right: auto;
+
+        align-self: flex-end;
+
+        margin: 0;
+
+        font-size: 10px;
+    }
+
+    .reserve {
+        position: relative;
+
+        left: auto;
+        bottom: auto;
+
+        transform: none;
+
+        width: 100%;
+
+        margin-top: 25px;
+
+        text-align: center;
+    }
+
+    .reserve-line {
+        gap: 8px;
+    }
+
+    .reserve-line p {
+        font-size: 7px;
+    }
+
+    .reserve-line div {
+        width: 15px;
+    }
+
+    .reserve button {
+        width: 100px;
+        height: 28px;
+
+        font-size: 8px;
+    }
+
+    .membership {
+        width: 100%;
+        min-height: 260px;
+
+        background-size: cover;
+        background-position: center;
+    }
+
+    .membership-content {
+        width: 85%;
+        max-width: 450px;
+    }
+
+    .membership-content h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .membership-content p {
+        font-size: 9px;
+        line-height: 1.6;
+    }
+
+    .membership-plans {
+        width: 100%;
+        max-width: 100%;
+
+        padding: 45px 15%;
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+
+        gap: 25px;
+    }
+
+    .membership-card {
+        width: 100%;
+        max-width: 330px;
+
+        height: 400px;
+
+        flex: none;
+
+        padding: 25px;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .membership-name {
+        font-size: 9px;
+        margin-bottom: 20px;
+    }
+
+    .membership-card h2 {
+        font-size: 20px;
+        margin-bottom: 22px;
+    }
+
+    .membership-benefits p {
+        font-size: 10px;
+        margin-bottom: 13px;
+    }
+
+    .membership-card button {
+        width: 80%;
+        height: 30px;
+
+        font-size: 8px;
+    }
+
+    .bottom {
+        width: 100%;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .bottom-content {
+        padding: 45px 20px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        text-align: center;
+    }
+
+    .bottom-logo img {
+        width: 30px;
+    }
+
+    .bottom-logo h2 {
+        font-size: 18px;
+    }
+
+    .bottom-content p {
+        max-width: 320px;
+
+        font-size: 8px;
+        line-height: 1.6;
+    }
+
+    .bottom-content p br {
+        display: none;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+
+        gap: 8px;
+    }
+
+    .social-icons img {
+        width: 22px;
+        height: 22px;
     }
 }
